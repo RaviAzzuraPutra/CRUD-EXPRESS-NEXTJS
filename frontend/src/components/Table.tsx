@@ -33,6 +33,18 @@ export default function Table() {
         }).format(number);
     }
 
+    const handleDelete = async (id) => {
+        console.log(id);
+
+        await axios.delete(`http://localhost:3031/delete/${id}`);
+        const newData = travelData.filter((item) => {
+            return (
+                item._id !== id
+            );
+        });
+        setTravelData(newData);
+    }
+
     return (
 
         <table>
@@ -60,9 +72,14 @@ export default function Table() {
                             <Link href={`/travel/detail/${data._id}`}>
                                 <button className="bg-green-400 hover:bg-green-500 text-white font-sm p-3 rounded-lg shadow-xl"> Detail </button>
                             </Link>
-                            <Link href={`/travel/edit/${data._id}`}>
+                            <Link href={`/travel/update/${data._id}`}>
                                 <button className="bg-blue-400 hover:bg-blue-500 text-white font-sm p-3 rounded-lg shadow-xl"> Update </button>
                             </Link>
+                            <button className="bg-red-400 hover:bg-red-500 text-white font-sm p-3 rounded-lg shadow-xl"
+                                onClick={() => handleDelete(data._id)}
+                            >
+                                Delete
+                            </button>
                         </td>
                     </tr>
                 ))}

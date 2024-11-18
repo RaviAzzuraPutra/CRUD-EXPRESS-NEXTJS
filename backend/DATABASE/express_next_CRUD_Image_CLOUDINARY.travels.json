@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6732b6edc6d1f1c950565ee3"
+  },
+  "title": "Raja Ampat",
+  "description": "Kepulauan Raja Ampat adalah gugusan kepulauan yang berlokasi di barat bagian Semenanjung Kepala Burung (Vogelkoop) Pulau Papua. Secara administrasi, gugusan ini berada di bawah Kabupaten Raja Ampat dan Kota Sorong, Provinsi Papua Barat Daya. Kepulauan ini sekarang menjadi tujuan para penyelam yang tertarik akan keindahan pemandangan bawah lautnya. Empat gugusan pulau yang menjadi anggotanya dinamakan menurut empat pulau terbesarnya, yaitu Pulau Waigeo, Pulau Misool, Pulau Salawati, dan Pulau Batanta. ",
+  "location": "Kabupaten Raja Ampat dan Kota Sorong, Provinsi Papua Barat Daya.",
+  "image_url": "https://res.cloudinary.com/dq0msj7dz/image/upload/v1731383224/EXPRESS_NEXT_MONGO_CLOUDINARY/ji1dlkxvg02zzadtw0dh.jpg",
+  "price": 4521000,
+  "updated_at": {
+    "$date": "2024-11-18T07:45:17.180Z"
+  },
+  "created_at": {
+    "$date": "2024-11-12T02:01:17.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6732ce828bef94a34105616d"
+  },
+  "title": "Museum Tsunami Aceh",
+  "description": "Museum Tsunami Aceh (Aksara Jawoë: موسيوم سونامي اچيه) adalah sebuah museum di Banda Aceh yang dirancang sebagai monumen simbolis, untuk mengenang bencana gempa bumi dan tsunami Samudra Hindia 2004 sekaligus menjadi salah satu pusat pendidikan bencana dan tempat perlidungan atau evakuasi darurat andai tsunami terjadi lagi.",
+  "location": "Banda Aceh, Indonesia",
+  "image_url": "https://res.cloudinary.com/dq0msj7dz/image/upload/v1731382913/EXPRESS_NEXT_MONGO_CLOUDINARY/gwkliepmavbmjdsykwic.jpg",
+  "price": 500000,
+  "updated_at": null,
+  "created_at": {
+    "$date": "2024-11-12T03:41:54.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673ae3ada03f5e5029cc2e3d"
+  },
+  "title": "Taman Nasional Gunung Gede Pangrango",
+  "description": "Taman Nasional Gunung Gede Pangrango (TNGGP) adalah salah satu taman nasional yang terletak di Provinsi Jawa Barat. Ditetapkan pada tahun 1980, taman nasional ini merupakan salah satu yang tertua di Indonesia. TN Gunung Gede Pangrango terutama didirikan untuk melindungi dan mengkonservasi ekosistem dan flora pegunungan yang cantik di Jawa Barat. Dengan luas 24.270,80 hektare, wilayahnya terutama mencakup dua puncak gunung Gede dan Pangrango beserta tutupan hutan pegunungan di sekelilingnya. ",
+  "location": "Cianjur, Jawa Barat",
+  "image_url": "https://res.cloudinary.com/dq0msj7dz/image/upload/v1731916167/EXPRESS_NEXT_MONGO_CLOUDINARY/qxyoob9o7q8hplh3hfxt.jpg",
+  "price": 451000,
+  "updated_at": {
+    "$date": "2024-11-18T07:49:30.214Z"
+  },
+  "created_at": {
+    "$date": "2024-11-18T06:50:21.625Z"
+  },
+  "__v": 0
+}]
