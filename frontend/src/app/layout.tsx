@@ -22,6 +22,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Kablammo&display=swap"
           rel="stylesheet"
         />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="bg-gradient-to-br from-lime-100 to-lime-600">{children}</body>
     </html>
